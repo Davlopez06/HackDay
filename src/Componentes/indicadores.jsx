@@ -4,6 +4,7 @@ import { getAllTypes } from "../redux/actions";
 import { useDispatch, useSelector } from 'react-redux';
 
 import { useState, useEffect } from 'react';
+import Navbar from "./Navbar";
 
 const Indicadores = (props) => {
 
@@ -20,7 +21,7 @@ const Indicadores = (props) => {
       
         return (
             <div className={styles.background}>
-      
+                    <Navbar/>
                   <div className={styles.indicado}>Region: {info.region}</div>
                   <div className={styles.indicado}>Name {info.detail.eventBody.service.name}</div>
                   <div className={styles.indicado}>Users {info.detail.eventBody.service.users[1].name}</div>
