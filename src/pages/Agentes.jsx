@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { getAllTypes } from "../redux/actions";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import mapa from "../tools/mapa.png";
+// import mapa from "../tools/mapa.png";
 
 const Agentes = (props) => {
     const dispatch = useDispatch();
@@ -27,7 +27,7 @@ const Agentes = (props) => {
                 <div className={styles.region}>REGION: {info.region}
                     <img
                     className={styles.mapa}
-                    src={mapa}
+                    // src={mapa}
                     alt="mapa"
                     />
                 </div>
