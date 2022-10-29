@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage.jsx';
 import Agentes from './pages/Agentes.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 const App = () => {
   return (
       <React.Fragment>     
