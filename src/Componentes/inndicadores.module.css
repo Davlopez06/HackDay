@@ -1,0 +1,63 @@
+.background{
+    background-color: #f4eb49;
+    padding: 1%;
+}
+
+.t{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.displ{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.subtitles{
+    background-color: black;
+    border-radius: 5px;
+    
+
+}
+
+.subtitles:hover{
+    cursor: pointer;
+}
+.region{
+    background-color: #0c59cf;
+    font-size: 2.5rem;
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.mapa{
+    height: 3rem;
+    border-radius: 20%;
+}
+
+.subtitles{
+    color: black;
+}
+
+.titl{
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.indicadores{
+    margin-left: 5%;
+    line-height: 1.9rem;
+    color: yellow;
+}
+
+.indicado{
+    color: black;
+}

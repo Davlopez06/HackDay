@@ -1,11 +1,13 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import './App.css';
+import Indicadores from './Componentes/indicadores';
 import LandingPage from './pages/LandingPage.jsx';
 import Agentes from './pages/Agentes.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Activo from './Componentes/Activo';
 import Navbar from './Componentes/Navbar';
+
 
 
 const App = () => {
