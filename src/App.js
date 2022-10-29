@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import Navbar from './Componentes/nav_bar';
+import React from 'react';
+import { Route } from "react-router-dom";
+import './App.css';
+import LandingPage from './pages/LandingPage.jsx';
+import Agentes from './pages/Agentes.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar/>
-
-        </header>
-    </div>
+      <React.Fragment>     
+          <Route exact path="/" component={LandingPage}/> 
+          <Route exact path="/Agentes" component={Agentes}/> 
+      </React.Fragment>
   );
 }
 
