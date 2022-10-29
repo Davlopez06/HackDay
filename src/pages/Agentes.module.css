@@ -1,7 +1,29 @@
 .background{
-    background-color: aqua;
-    background: orange;
+    background: #f4eb49;
+
 }
-.agentes{
-    font-size: red;
+
+.titulo{
+    font-size: 2.5rem;
+    font-family: 'VT323', monospace;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    width: 500px; 
+    height: 200px;
+}
+.region{
+    background-color: #0c59cf;
+    font-size: 2.5rem;
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.mapa{
+    height: 3rem;
+    border-radius: 20%;
 }
