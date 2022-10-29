@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
+
 import './App.css';
 import Indicadores from './Componentes/indicadores';
 import LandingPage from './pages/LandingPage.jsx';
