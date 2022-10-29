@@ -94,13 +94,13 @@ const Activo=()=>{
                     <div className={css.filledbar}></div>
                     </div>
                     <div className={css.circle}>
-                    {userA? 
+                    {userA.length? 
                         userA.map(user=>{
                             return (
                                 <p>{user}</p>
                             )
                         })
-                    :null}
+                    : <p>No hay usuarios</p>}
                     </div>
                 </div>
                 <div className={css.card}>
@@ -110,13 +110,13 @@ const Activo=()=>{
                     <div className={css.filledbar}></div>
                     </div>
                     <div className={css.circle}>
-                    {asesorA? 
+                    {asesorA.length? 
                         asesorA.map(user=>{
                             return (
                                 <p>{user}</p>
                             )
                         })
-                    :null}
+                    : <p>No hay usuarios</p>}
                     </div>
                 </div>
                 <div className={css.card}>
@@ -126,13 +126,13 @@ const Activo=()=>{
                     <div className={css.filledbar}></div>
                     </div>
                     <div className={css.circle}>
-                    {asesorE? 
+                    {asesorE.length? 
                         asesorE.map(user=>{
                             return (
                                 <p>{user}</p>
                             )
                         })
-                    :null}
+                    : <p>No hay usuarios</p>}
                     </div>
                 </div>
                 <div className={css.card}>
@@ -142,13 +142,13 @@ const Activo=()=>{
                     <div className={css.filledbar}></div>
                     </div>
                     <div className={css.circle}>
-                    {asesorACW? 
+                    {asesorACW.length? 
                         asesorACW.map(user=>{
                             return (
                                 <p>{user}</p>
                             )
                         })
-                    :null}
+                    : <p>No hay usuarios</p>}
                     </div>
                 </div>
             </div>
