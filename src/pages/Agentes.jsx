@@ -8,6 +8,7 @@ import mapa from "../tools/mapa.png";
 import logo from "../tools/logo2.png";
 
 
+
 const Agentes = () => {
     const dispatch = useDispatch();
     const info = useSelector(state => state.agentes)
@@ -38,7 +39,7 @@ const Agentes = () => {
                     
                     <img
                     className={styles.mapa}
-                    src={mapa}
+                    // src={mapa}
                     alt="mapa"
                     />
                 </div>
