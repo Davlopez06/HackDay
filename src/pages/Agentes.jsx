@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import mapa from "../tools/mapa.png";
 import logo from "../tools/logo2.png";
+import Navbar from "../Componentes/Navbar";
 
 
 
@@ -24,7 +25,7 @@ const Agentes = () => {
     return (
         <React.Fragment>
             <div className={styles.background}>
-
+            <Navbar/>
                 <div className={styles.backLogo}>
                 <img
                     className={styles.logo}

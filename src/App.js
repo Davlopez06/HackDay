@@ -15,11 +15,12 @@ import Home from './Componentes/Home';
 const App = () => {
   return (
       <React.Fragment>
+
         <Routes>
           <Route exact path="/" element={<Home/>}/> 
           <Route exact path="/Agentes" element={<Agentes/>}/> 
           <Route exact path='/Activos' element={<Activo/>}/>
-          <Route exact path='/Navbar' element={<Navbar/>}/>
+          <Route exact path='/indicadores' element={<Indicadores/>}/>
         </Routes>
       </React.Fragment>
   );

@@ -12,7 +12,7 @@ const Navbar=()=>{
                 <button className="menu btn-nav"><span className="fas fa-bars"></span></button>
             </div>
             <div className="nav right">
-                <Link to="/home" className="nav-link"><span className="nav-link-span"><span className="u-nav">Home</span></span></Link>
+                <Link to="/" className="nav-link"><span className="nav-link-span"><span className="u-nav">Home</span></span></Link>
                 <Link to="/agentes" href="#about" className="nav-link"><span className="nav-link-span"><span className="u-nav">Agentes</span></span></Link>
                 <Link to="/indicadores" href="#work" className="nav-link"><span className="nav-link-span"><span className="u-nav">Indicadores</span></span></Link>
                 <Link to="/Activos" href="#contact" className="nav-link"><span className="nav-link-span"><span className="u-nav">Activos</span></span></Link>

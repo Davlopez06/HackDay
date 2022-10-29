@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useDispatch, useSelector, useStore } from "react-redux";
 import { getAllTypes } from "../redux/actions";
 import css from "./Activo.module.css"
+import Navbar from "./Navbar";
 
 const Activo=()=>{
     const [userA,setUserA]=useState([]);
@@ -87,6 +88,7 @@ const Activo=()=>{
     }
     return(
             <div className={css.container}>
+                  <Navbar/>
                 <div className={css.card}>
                     <h3 className={css.title}>Los Usuarios que estan activos en el servicio son:</h3>
                     <div className={css.bar}>
